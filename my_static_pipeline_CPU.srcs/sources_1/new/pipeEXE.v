@@ -50,7 +50,7 @@ module pipeDEreg(
 	output reg Emuler_hi[31:0],
 	output reg Emuler_lo[31:0],
 	output reg Epc4[31:0],
-	output reg Eg[31:0],
+	output reg Eq[31:0],
 	output reg Er[31:0],
 	output reg Erfsource[2:0],
 	output reg Ern[4:0],

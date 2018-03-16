@@ -1,24 +1,26 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Create Date: 2018/03/16 14:41:23
+// Company: 
+// Engineer: 
+// 
+// Create Date: 2018/03/16 16:08:09
+// Design Name: 
 // Module Name: pipeIF
-// Project Name: my_static_pipeline_CPU
-// Description: 包含了指令存储器、累加器和多路选择器
-// Dependencies: 输入：PC 的各类来源，以及 PC 多路选择器的控制信号
-//               输出：下一条 PC 和当前 PC 对应的指令以及 PC+4
-// Revision:0.1 File Created
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
 //////////////////////////////////////////////////////////////////////////////////
 
 
 module pipeIF(
-    input [31:0] bpc,
-    input [31:0] cpc,
-    input [31:0] jpc,
-    input [31:0] pc,
-    input [ 2:0] pcsource,
-    input [31:0] rpc,
-    output reg [31:0] instruction,
-    output reg [31:0] opc,
-    output reg [31:0] pc4
+
     );
 endmodule
