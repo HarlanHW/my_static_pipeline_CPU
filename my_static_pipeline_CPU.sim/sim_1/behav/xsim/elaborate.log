@@ -1,0 +1,48 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/01software/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 40ed22f862914e898e2e56b13341d933 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot pipeline_CPU_tb_behav xil_defaultlib.pipeline_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port reg28 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:51]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port a [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIMEM.v:16]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Ern [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:61]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 4 for port Ealuc [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:108]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 4 for port aluc [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:130]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Ern [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:151]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Ern [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:173]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 10 for port a [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDMEM.v:29]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.pcreg
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.cla32
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.IMEM
+Compiling module xil_defaultlib.pipeIMEM
+Compiling module xil_defaultlib.pipeIF
+Compiling module xil_defaultlib.pipeIR
+Compiling module xil_defaultlib.pipeIDcu
+Compiling module xil_defaultlib.mux2x5
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.selector
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.pipeID
+Compiling module xil_defaultlib.pipeDEreg
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.pipeEXE
+Compiling module xil_defaultlib.pipeEMreg
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.DMEM
+Compiling module xil_defaultlib.pipeDMEM
+Compiling module xil_defaultlib.pipeMEMreg
+Compiling module xil_defaultlib.pipeMWreg
+Compiling module xil_defaultlib.pipeWB
+Compiling module xil_defaultlib.pipeCPU
+Compiling module xil_defaultlib.pipeline_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipeline_CPU_tb_behav

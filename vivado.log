@@ -1,0 +1,1620 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Apr  8 12:56:29 2018
+# Process ID: 12296
+# Current directory: C:/02study/11github/my_static_pipeline_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7180 C:\02study\11github\my_static_pipeline_CPU\my_static_pipeline_CPU.xpr
+# Log file: C:/02study/11github/my_static_pipeline_CPU/vivado.log
+# Journal file: C:/02study/11github/my_static_pipeline_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/01software/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 818.160 ; gain = 102.988
+reset_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-2266] Removing simulation data...
+WARNING: [Vivado 12-3661] Failed to remove file:C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/pipeline_CPU_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/xsim.dir/pipeline_CPU_tb_behav/pipeline_CPU_tb_behav_12404_1523159692.btree
+WARNING: [Vivado 12-3661] Failed to remove file:C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/xsim.dir/pipeline_CPU_tb_behav/xsim.xdbg
+WARNING: [Vivado 12-4421] Failed to remove directory:C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/xsim.dir/pipeline_CPU_tb_behav
+WARNING: [Vivado 12-4421] Failed to remove directory:C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/xsim.dir
+INFO: [Vivado 12-2267] Reset complete
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/01software/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'pipeline_CPU_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/DMEM.mif'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/DMEM_test_board.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/IMEM.mif'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_8_time_z.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_180403.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_180404.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_singal.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/DMEM_test180407.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_board.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_nodelay.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_delay2.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_delay3.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_delay4.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_delay5.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_800000_time_z.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj pipeline_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/DMEM/sim/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz
+INFO: [VRFC 10-311] analyzing module clk_wiz_clk_wiz_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/sim/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMWreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeMWreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pcreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEMreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeEMreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDEreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeDEreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeEXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeMEMreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/cla.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIDcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIDcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeCPU
+INFO: [VRFC 10-2458] undeclared symbol _pc, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:280]
+INFO: [VRFC 10-2458] undeclared symbol _inst, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:281]
+INFO: [VRFC 10-2458] undeclared symbol _ealu, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:282]
+INFO: [VRFC 10-2458] undeclared symbol _malu, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:283]
+INFO: [VRFC 10-2458] undeclared symbol _walu, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:284]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeDMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_CPU_tb
+INFO: [VRFC 10-2458] undeclared symbol reg28, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:51]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/seg7x16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7x16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-2421] module glbl is previously defined, ignoring this definition [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/glbl.v:6]
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/01software/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 40ed22f862914e898e2e56b13341d933 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot pipeline_CPU_tb_behav xil_defaultlib.pipeline_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port reg28 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:51]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port a [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIMEM.v:16]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Ern [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:61]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 4 for port Ealuc [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:108]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 4 for port aluc [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:130]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Ern [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:151]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Ern [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:173]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 10 for port a [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDMEM.v:29]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.pcreg
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.cla32
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.IMEM
+Compiling module xil_defaultlib.pipeIMEM
+Compiling module xil_defaultlib.pipeIF
+Compiling module xil_defaultlib.pipeIR
+Compiling module xil_defaultlib.pipeIDcu
+Compiling module xil_defaultlib.mux2x5
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.selector
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.pipeID
+Compiling module xil_defaultlib.pipeDEreg
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.pipeEXE
+Compiling module xil_defaultlib.pipeEMreg
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.DMEM
+Compiling module xil_defaultlib.pipeDMEM
+Compiling module xil_defaultlib.pipeMEMreg
+Compiling module xil_defaultlib.pipeMWreg
+Compiling module xil_defaultlib.pipeWB
+Compiling module xil_defaultlib.pipeCPU
+Compiling module xil_defaultlib.pipeline_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipeline_CPU_tb_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/xsim.dir/pipeline_CPU_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/xsim.dir/pipeline_CPU_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Apr  8 12:57:22 2018. For additional details about this file, please refer to the WebTalk help file at C:/01software/Xilinx/Vivado/2017.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Apr  8 12:57:22 2018...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 833.750 ; gain = 2.723
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "pipeline_CPU_tb_behav -key {Behavioral:sim_1:Functional:pipeline_CPU_tb} -tclbatch {pipeline_CPU_tb.tcl} -view {C:/02study/11github/my_static_pipeline_CPU/pipeline_CPU_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+open_wave_config C:/02study/11github/my_static_pipeline_CPU/pipeline_CPU_tb_behav.wcfg
+source pipeline_CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'pipeline_CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 835.168 ; gain = 9.543
+run 1 s
+run: Time (s): cpu = 00:00:52 ; elapsed = 00:02:11 . Memory (MB): peak = 871.492 ; gain = 24.508
+set_property -dict [list CONFIG.coefficient_file {c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/inst_pipe_s_800000_time_z.coe}] [get_ips IMEM]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/inst_pipe_s_800000_time_z.coe' provided. It will be converted relative to IP Instance files 'inst_pipe_s_800000_time_z.coe'
+generate_target all [get_files  C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/IMEM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'IMEM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'IMEM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'IMEM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'IMEM'...
+catch { config_ip_cache -export [get_ips -all IMEM] }
+export_ip_user_files -of_objects [get_files C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/IMEM.xci] -no_script -sync -force -quiet
+reset_run IMEM_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/IMEM_synth_1
+
+launch_runs -jobs 4 IMEM_synth_1
+[Sun Apr  8 13:00:12 2018] Launched IMEM_synth_1...
+Run output will be captured here: C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/IMEM_synth_1/runme.log
+INFO: [Vivado 12-4357] Exporting simulation files for 'IMEM'... please wait for 'IMEM_synth_1' run to finish...
+wait_on_run IMEM_synth_1
+[Sun Apr  8 13:00:12 2018] Waiting for IMEM_synth_1 to finish...
+[Sun Apr  8 13:00:17 2018] Waiting for IMEM_synth_1 to finish...
+[Sun Apr  8 13:00:22 2018] Waiting for IMEM_synth_1 to finish...
+[Sun Apr  8 13:00:28 2018] Waiting for IMEM_synth_1 to finish...
+[Sun Apr  8 13:00:38 2018] Waiting for IMEM_synth_1 to finish...
+[Sun Apr  8 13:00:48 2018] Waiting for IMEM_synth_1 to finish...
+[Sun Apr  8 13:00:58 2018] Waiting for IMEM_synth_1 to finish...
+[Sun Apr  8 13:01:08 2018] Waiting for IMEM_synth_1 to finish...
+[Sun Apr  8 13:01:29 2018] Waiting for IMEM_synth_1 to finish...
+
+*** Running vivado
+    with args -log IMEM.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source IMEM.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source IMEM.tcl -notrace
+Command: synth_design -top IMEM -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5800 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 402.422 ; gain = 97.434
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'IMEM' [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/synth/IMEM.vhd:66]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_ADDR_WIDTH bound to: 11 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_DEPTH bound to: 2048 - type: integer 
+	Parameter C_HAS_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_D bound to: 0 - type: integer 
+	Parameter C_HAS_DPO bound to: 0 - type: integer 
+	Parameter C_HAS_DPRA bound to: 0 - type: integer 
+	Parameter C_HAS_I_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_SPO bound to: 1 - type: integer 
+	Parameter C_HAS_WE bound to: 0 - type: integer 
+	Parameter C_MEM_INIT_FILE bound to: IMEM.mif - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_QCE_JOINED bound to: 0 - type: integer 
+	Parameter C_QUALIFY_WE bound to: 0 - type: integer 
+	Parameter C_READ_MIF bound to: 1 - type: integer 
+	Parameter C_REG_A_D_INPUTS bound to: 0 - type: integer 
+	Parameter C_REG_DPRA_INPUT bound to: 0 - type: integer 
+	Parameter C_SYNC_ENABLE bound to: 1 - type: integer 
+	Parameter C_WIDTH bound to: 32 - type: integer 
+	Parameter C_PARSER_TYPE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_12' declared at 'c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3237' bound to instance 'U0' of component 'dist_mem_gen_v8_0_12' [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/synth/IMEM.vhd:132]
+INFO: [Synth 8-256] done synthesizing module 'IMEM' (4#1) [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/synth/IMEM.vhd:66]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[31]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[30]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[29]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[28]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[27]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[26]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[25]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[24]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[23]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[22]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[21]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[20]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[19]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[18]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[17]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[16]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[15]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[14]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[13]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[12]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[11]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[10]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[9]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[8]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[7]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[6]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[5]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[4]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[3]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[2]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[1]
+WARNING: [Synth 8-3331] design rom has unconnected port qspo[0]
+WARNING: [Synth 8-3331] design rom has unconnected port clk
+WARNING: [Synth 8-3331] design rom has unconnected port qspo_ce
+WARNING: [Synth 8-3331] design rom has unconnected port qspo_rst
+WARNING: [Synth 8-3331] design rom has unconnected port qspo_srst
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[31]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[30]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[29]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[28]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[27]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[26]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[25]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[24]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[23]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[22]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[21]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[20]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[19]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[18]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[17]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[16]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[15]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[14]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[13]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[12]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[11]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[10]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[9]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[8]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[7]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[6]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[5]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[4]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[3]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[2]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[1]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port dpo[0]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[31]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[30]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[29]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[28]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[27]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[26]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[25]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[24]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[23]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[22]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[21]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[20]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[19]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[18]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[17]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[16]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[15]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[14]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[13]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[12]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[11]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[10]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[9]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[8]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[7]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[6]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[5]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[4]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[3]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[2]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[1]
+WARNING: [Synth 8-3331] design dist_mem_gen_v8_0_12_synth has unconnected port qdpo[0]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 499.219 ; gain = 194.230
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 499.219 ; gain = 194.230
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/IMEM_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/IMEM_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/IMEM_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/IMEM_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 724.488 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 724.488 ; gain = 419.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 724.488 ; gain = 419.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/IMEM_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 724.488 ; gain = 419.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 724.488 ; gain = 419.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 724.488 ; gain = 419.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------------+--------------------------------------------------------+---------------+----------------+
+|Module Name          | RTL Object                                             | Depth x Width | Implemented As | 
++---------------------+--------------------------------------------------------+---------------+----------------+
+|rom                  | rom[2047]                                              | 2048x32       | LUT            | 
+|dist_mem_gen_v8_0_12 | synth_options.dist_mem_inst/gen_rom.rom_inst/rom[2047] | 2048x32       | LUT            | 
++---------------------+--------------------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 788.941 ; gain = 483.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 788.941 ; gain = 483.953
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 799.270 ; gain = 494.281
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 799.270 ; gain = 494.281
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 799.270 ; gain = 494.281
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 799.270 ; gain = 494.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 799.270 ; gain = 494.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 799.270 ; gain = 494.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 799.270 ; gain = 494.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT3  |     4|
+|2     |LUT4  |     6|
+|3     |LUT5  |    40|
+|4     |LUT6  |    56|
+|5     |MUXF7 |     2|
++------+------+------+
+
+Report Instance Areas: 
++------+----------------------------------+---------------------------+------+
+|      |Instance                          |Module                     |Cells |
++------+----------------------------------+---------------------------+------+
+|1     |top                               |                           |   108|
+|2     |  U0                              |dist_mem_gen_v8_0_12       |   108|
+|3     |    \synth_options.dist_mem_inst  |dist_mem_gen_v8_0_12_synth |   108|
+|4     |      \gen_rom.rom_inst           |rom                        |   108|
++------+----------------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 799.270 ; gain = 494.281
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 149 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:50 . Memory (MB): peak = 799.270 ; gain = 269.012
+Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 799.270 ; gain = 494.281
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:01:01 . Memory (MB): peak = 809.484 ; gain = 515.961
+INFO: [Common 17-1381] The checkpoint 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/IMEM_synth_1/IMEM.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/IMEM.xci
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/IMEM_synth_1/IMEM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file IMEM_utilization_synth.rpt -pb IMEM_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 813.852 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  8 13:01:27 2018...
+[Sun Apr  8 13:01:29 2018] IMEM_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:04 ; elapsed = 00:01:17 . Memory (MB): peak = 895.699 ; gain = 0.000
+export_simulation -of_objects [get_files C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/IMEM.xci] -directory C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.ip_user_files/sim_scripts -ip_user_files_dir C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.ip_user_files -ipstatic_source_dir C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.cache/compile_simlib/modelsim} {questa=C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.cache/compile_simlib/questa} {riviera=C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.cache/compile_simlib/riviera} {activehdl=C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 895.699 ; gain = 0.000
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/01software/Xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'pipeline_CPU_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/DMEM.mif'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/DMEM_test_board.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/IMEM.mif'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_800000_time_z.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_180403.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_180404.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_singal.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/DMEM_test180407.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_board.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/test_imem_nodelay.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_delay2.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_delay3.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_delay4.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_delay5.coe'
+INFO: [SIM-utils-43] Exported 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim/inst_pipe_s_8_time_z.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj pipeline_CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/DMEM/sim/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz
+INFO: [VRFC 10-311] analyzing module clk_wiz_clk_wiz_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/sim/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMWreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeMWreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pcreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEMreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeEMreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDEreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeDEreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeEXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeMEMreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/cla.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIDcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIDcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeCPU
+INFO: [VRFC 10-2458] undeclared symbol _pc, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:280]
+INFO: [VRFC 10-2458] undeclared symbol _inst, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:281]
+INFO: [VRFC 10-2458] undeclared symbol _ealu, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:282]
+INFO: [VRFC 10-2458] undeclared symbol _malu, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:283]
+INFO: [VRFC 10-2458] undeclared symbol _walu, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:284]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeDMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_CPU_tb
+INFO: [VRFC 10-2458] undeclared symbol reg28, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:51]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/seg7x16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7x16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/01software/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 40ed22f862914e898e2e56b13341d933 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot pipeline_CPU_tb_behav xil_defaultlib.pipeline_CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port reg28 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:51]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 11 for port a [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIMEM.v:16]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Ern [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:61]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 4 for port Ealuc [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:108]
+WARNING: [VRFC 10-278] actual bit length 5 differs from formal bit length 4 for port aluc [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:130]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Ern [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:151]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port Ern [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:173]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 10 for port a [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDMEM.v:29]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dff32
+Compiling module xil_defaultlib.pcreg
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.cla32
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.IMEM
+Compiling module xil_defaultlib.pipeIMEM
+Compiling module xil_defaultlib.pipeIF
+Compiling module xil_defaultlib.pipeIR
+Compiling module xil_defaultlib.pipeIDcu
+Compiling module xil_defaultlib.mux2x5
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.selector
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.pipeID
+Compiling module xil_defaultlib.pipeDEreg
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.pipeEXE
+Compiling module xil_defaultlib.pipeEMreg
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.DMEM
+Compiling module xil_defaultlib.pipeDMEM
+Compiling module xil_defaultlib.pipeMEMreg
+Compiling module xil_defaultlib.pipeMWreg
+Compiling module xil_defaultlib.pipeWB
+Compiling module xil_defaultlib.pipeCPU
+Compiling module xil_defaultlib.pipeline_CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipeline_CPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 895.699 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 898.102 ; gain = 2.402
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sun Apr  8 13:03:11 2018] Launched synth_1...
+Run output will be captured here: C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: pipeline_CPU_tb
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1004.305 ; gain = 104.672
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'pipeline_CPU_tb' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:24]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:48]
+INFO: [Common 17-14] Message 'Synth 8-311' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Synth 8-638] synthesizing module 'pipeCPU' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:13]
+INFO: [Synth 8-638] synthesizing module 'pcreg' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pcreg.v:16]
+INFO: [Synth 8-638] synthesizing module 'dff32' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/dff32.v:17]
+INFO: [Synth 8-256] done synthesizing module 'dff32' (1#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/dff32.v:17]
+INFO: [Common 17-344] 'source' was cancelled
+8 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 1091.859 ; gain = 192.227
+INFO: [Common 17-344] 'synth_design' was cancelled
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+set_property top top [current_fileset]
+launch_runs synth_1 -jobs 4
+[Sun Apr  8 13:05:24 2018] Launched synth_1...
+Run output will be captured here: C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1162.375 ; gain = 70.516
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz' [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/realtime/clk_wiz_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz' (1#1) [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/realtime/clk_wiz_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/seg7x16.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/seg7x16.v:80]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (2#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/seg7x16.v:16]
+INFO: [Synth 8-638] synthesizing module 'pipeCPU' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:13]
+INFO: [Synth 8-638] synthesizing module 'pcreg' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pcreg.v:16]
+INFO: [Synth 8-638] synthesizing module 'dff32' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/dff32.v:17]
+INFO: [Synth 8-256] done synthesizing module 'dff32' (3#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/dff32.v:17]
+INFO: [Synth 8-256] done synthesizing module 'pcreg' (4#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pcreg.v:16]
+INFO: [Synth 8-638] synthesizing module 'pipeIF' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIF.v:23]
+INFO: [Synth 8-638] synthesizing module 'mux4x32' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux4x32.v:35]
+INFO: [Synth 8-256] done synthesizing module 'mux4x32' (5#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux4x32.v:35]
+INFO: [Synth 8-638] synthesizing module 'cla32' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/cla.v:18]
+INFO: [Synth 8-256] done synthesizing module 'cla32' (6#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/cla.v:18]
+INFO: [Synth 8-638] synthesizing module 'pipeIMEM' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIMEM.v:13]
+INFO: [Synth 8-638] synthesizing module 'IMEM' [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/realtime/IMEM_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'IMEM' (7#1) [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/realtime/IMEM_stub.v:6]
+WARNING: [Synth 8-689] width (32) of port connection 'a' does not match port width (11) of module 'IMEM' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIMEM.v:16]
+INFO: [Synth 8-256] done synthesizing module 'pipeIMEM' (8#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIMEM.v:13]
+INFO: [Synth 8-256] done synthesizing module 'pipeIF' (9#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIF.v:23]
+INFO: [Synth 8-638] synthesizing module 'pipeIR' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIR.v:11]
+INFO: [Synth 8-256] done synthesizing module 'pipeIR' (10#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIR.v:11]
+INFO: [Synth 8-638] synthesizing module 'pipeID' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:25]
+INFO: [Synth 8-638] synthesizing module 'pipeIDcu' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIDcu.v:14]
+INFO: [Synth 8-256] done synthesizing module 'pipeIDcu' (11#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIDcu.v:14]
+INFO: [Synth 8-638] synthesizing module 'mux2x5' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x5.v:23]
+INFO: [Synth 8-256] done synthesizing module 'mux2x5' (12#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x5.v:23]
+INFO: [Synth 8-638] synthesizing module 'regfile' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/regfile.v:19]
+INFO: [Synth 8-638] synthesizing module 'decoder' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/decoder.v:16]
+INFO: [Synth 8-256] done synthesizing module 'decoder' (13#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/decoder.v:16]
+INFO: [Synth 8-638] synthesizing module 'selector' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/selector.v:16]
+INFO: [Synth 8-256] done synthesizing module 'selector' (14#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/selector.v:16]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (15#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/regfile.v:19]
+WARNING: [Synth 8-3848] Net CP0out in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:71]
+WARNING: [Synth 8-3848] Net Hiout in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:73]
+WARNING: [Synth 8-3848] Net Loout in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:74]
+WARNING: [Synth 8-3848] Net cpc in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:81]
+WARNING: [Synth 8-3848] Net cuttersource in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:82]
+WARNING: [Synth 8-3848] Net div in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:83]
+WARNING: [Synth 8-3848] Net hisource in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:84]
+WARNING: [Synth 8-3848] Net losource in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:85]
+WARNING: [Synth 8-3848] Net w_hi in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:96]
+WARNING: [Synth 8-3848] Net w_lo in module/entity pipeID does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:97]
+INFO: [Synth 8-256] done synthesizing module 'pipeID' (16#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v:25]
+WARNING: [Synth 8-689] width (32) of port connection 'Ern' does not match port width (5) of module 'pipeID' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:61]
+INFO: [Synth 8-638] synthesizing module 'pipeDEreg' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDEreg.v:15]
+INFO: [Synth 8-256] done synthesizing module 'pipeDEreg' (17#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDEreg.v:15]
+WARNING: [Synth 8-689] width (5) of port connection 'Ealuc' does not match port width (4) of module 'pipeDEreg' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:108]
+INFO: [Synth 8-638] synthesizing module 'pipeEXE' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:15]
+INFO: [Synth 8-638] synthesizing module 'mux2x32' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'mux2x32' (18#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x32.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/ALU.v:13]
+INFO: [Synth 8-638] synthesizing module 'Adder' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/adder.v:11]
+INFO: [Synth 8-256] done synthesizing module 'Adder' (19#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/adder.v:11]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (20#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/ALU.v:13]
+WARNING: [Synth 8-3848] Net Ecounter in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:64]
+WARNING: [Synth 8-3848] Net Ecp0 in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:65]
+WARNING: [Synth 8-3848] Net Ecuttersource in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:66]
+WARNING: [Synth 8-3848] Net Ehi in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:67]
+WARNING: [Synth 8-3848] Net Ehisource in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:68]
+WARNING: [Synth 8-3848] Net Elo in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:70]
+WARNING: [Synth 8-3848] Net Elosource in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:71]
+WARNING: [Synth 8-3848] Net Emuler_hi in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:72]
+WARNING: [Synth 8-3848] Net Emuler_lo in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:73]
+WARNING: [Synth 8-3848] Net Eq in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:75]
+WARNING: [Synth 8-3848] Net Er in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:76]
+WARNING: [Synth 8-3848] Net Ew_hi in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:81]
+WARNING: [Synth 8-3848] Net Ew_lo in module/entity pipeEXE does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:82]
+INFO: [Synth 8-256] done synthesizing module 'pipeEXE' (21#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v:15]
+WARNING: [Synth 8-689] width (5) of port connection 'aluc' does not match port width (4) of module 'pipeEXE' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:130]
+WARNING: [Synth 8-689] width (32) of port connection 'Ern' does not match port width (5) of module 'pipeEXE' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:151]
+INFO: [Synth 8-638] synthesizing module 'pipeEMreg' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEMreg.v:15]
+INFO: [Synth 8-256] done synthesizing module 'pipeEMreg' (22#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEMreg.v:15]
+WARNING: [Synth 8-689] width (32) of port connection 'Ern' does not match port width (5) of module 'pipeEMreg' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:173]
+INFO: [Synth 8-638] synthesizing module 'pipeMEMreg' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:16]
+INFO: [Synth 8-638] synthesizing module 'pipeDMEM' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDMEM.v:23]
+INFO: [Synth 8-638] synthesizing module 'DMEM' [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/realtime/DMEM_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'DMEM' (23#1) [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/realtime/DMEM_stub.v:6]
+WARNING: [Synth 8-689] width (32) of port connection 'a' does not match port width (10) of module 'DMEM' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDMEM.v:29]
+INFO: [Synth 8-256] done synthesizing module 'pipeDMEM' (24#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDMEM.v:23]
+WARNING: [Synth 8-3848] Net Mcounter in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:63]
+WARNING: [Synth 8-3848] Net Mcp0 in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:64]
+WARNING: [Synth 8-3848] Net Mhi in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:66]
+WARNING: [Synth 8-3848] Net Mhisource in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:67]
+WARNING: [Synth 8-3848] Net Mlo in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:68]
+WARNING: [Synth 8-3848] Net Mlosource in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:69]
+WARNING: [Synth 8-3848] Net Mmuler_hi in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:70]
+WARNING: [Synth 8-3848] Net Mmuler_lo in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:71]
+WARNING: [Synth 8-3848] Net Mq in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:73]
+WARNING: [Synth 8-3848] Net Mr in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:74]
+WARNING: [Synth 8-3848] Net Msign in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:77]
+WARNING: [Synth 8-3848] Net Mw_hi in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:78]
+WARNING: [Synth 8-3848] Net Mw_lo in module/entity pipeMEMreg does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:79]
+INFO: [Synth 8-256] done synthesizing module 'pipeMEMreg' (25#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v:16]
+INFO: [Synth 8-638] synthesizing module 'pipeMWreg' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMWreg.v:12]
+INFO: [Synth 8-256] done synthesizing module 'pipeMWreg' (26#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMWreg.v:12]
+INFO: [Synth 8-638] synthesizing module 'pipeWB' [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeWB.v:16]
+WARNING: [Synth 8-3848] Net Wdata_hi in module/entity pipeWB does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeWB.v:48]
+WARNING: [Synth 8-3848] Net Wdata_lo in module/entity pipeWB does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeWB.v:49]
+WARNING: [Synth 8-3848] Net Ww_hi in module/entity pipeWB does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeWB.v:52]
+WARNING: [Synth 8-3848] Net Ww_lo in module/entity pipeWB does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeWB.v:53]
+INFO: [Synth 8-256] done synthesizing module 'pipeWB' (27#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeWB.v:16]
+WARNING: [Synth 8-3848] Net Ew_hi in module/entity pipeCPU does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:38]
+WARNING: [Synth 8-3848] Net Ew_lo in module/entity pipeCPU does not have driver. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:38]
+INFO: [Synth 8-256] done synthesizing module 'pipeCPU' (28#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:13]
+INFO: [Synth 8-256] done synthesizing module 'top' (29#1) [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[31]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[30]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[29]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[28]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[27]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[26]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[25]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[24]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[23]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[22]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[21]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[20]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[19]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[18]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[17]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[16]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[15]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[14]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[13]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[12]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[11]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[10]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[9]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[8]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[7]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[6]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[5]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[4]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[3]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[2]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[1]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_hi[0]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[31]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[30]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[29]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[28]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[27]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[26]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[25]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[24]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[23]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[22]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[21]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[20]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[19]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[18]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[17]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[16]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[15]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[14]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[13]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[12]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[11]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[10]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[9]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[8]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[7]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[6]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[5]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[4]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[3]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[2]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[1]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Wdata_lo[0]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Ww_hi
+WARNING: [Synth 8-3331] design pipeWB has unconnected port Ww_lo
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[31]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[30]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[29]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[28]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[27]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[26]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[25]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[24]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[23]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[22]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[21]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[20]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[19]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[18]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[17]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[16]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[15]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[14]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[13]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[12]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[11]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[10]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[9]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[8]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[7]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[6]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[5]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[4]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[3]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[2]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[1]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port a[0]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port b[31]
+WARNING: [Synth 8-3331] design pipeWB has unconnected port b[30]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1212.660 ; gain = 120.801
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin DE:Dcuttersource[1] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dcuttersource[0] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Ddiv to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[31] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[30] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[29] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[28] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[27] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[26] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[25] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[24] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[23] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[22] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[21] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[20] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[19] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[18] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[17] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[16] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[15] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[14] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[13] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[12] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[11] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[10] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[9] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[8] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[7] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[6] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[5] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[4] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[3] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[2] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[1] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhi[0] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhisource[1] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dhisource[0] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[31] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[30] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[29] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[28] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[27] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[26] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[25] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[24] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[23] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[22] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[21] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[20] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[19] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[18] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[17] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[16] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[15] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[14] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[13] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[12] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[11] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[10] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[9] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[8] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[7] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[6] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[5] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[4] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[3] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[2] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[1] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlo[0] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlosource[1] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dlosource[0] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dw_hi to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin DE:Dw_lo to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:92]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[31] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[30] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[29] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[28] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[27] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[26] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[25] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[24] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[23] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[22] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[21] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[20] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[19] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[18] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[17] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[16] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[15] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[14] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[13] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[12] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[11] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[10] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[9] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[8] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[7] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[6] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+WARNING: [Synth 8-3295] tying undriven pin EM:Ecounter[5] to constant 0 [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:163]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1212.660 ; gain = 120.801
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.dcp' for cell 'c'
+INFO: [Project 1-454] Reading design checkpoint 'c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/IMEM.dcp' for cell 'CPU/IF/imem/i'
+INFO: [Project 1-454] Reading design checkpoint 'c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/DMEM/DMEM.dcp' for cell 'CPU/MEM/datamem/d'
+INFO: [Netlist 29-17] Analyzing 132 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz_board.xdc] for cell 'c/inst'
+Finished Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz_board.xdc] for cell 'c/inst'
+Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc] for cell 'c/inst'
+Finished Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc] for cell 'c/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/constrs_1/new/pipe_board.xdc]
+Finished Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/constrs_1/new/pipe_board.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 128 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:37 ; elapsed = 00:00:30 . Memory (MB): peak = 1456.898 ; gain = 365.039
+74 Infos, 249 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:31 . Memory (MB): peak = 1456.898 ; gain = 365.039
+launch_runs impl_1 -jobs 4
+[Sun Apr  8 13:07:14 2018] Launched impl_1...
+Run output will be captured here: C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.dcp' for cell 'c'
+INFO: [Project 1-454] Reading design checkpoint 'c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/IMEM.dcp' for cell 'CPU/IF/imem/i'
+INFO: [Project 1-454] Reading design checkpoint 'c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/DMEM/DMEM.dcp' for cell 'CPU/MEM/datamem/d'
+INFO: [Netlist 29-17] Analyzing 511 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz_board.xdc] for cell 'c/inst'
+Finished Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz_board.xdc] for cell 'c/inst'
+Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc] for cell 'c/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc:57]
+get_clocks: Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2111.824 ; gain = 573.066
+Finished Parsing XDC File [c:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc] for cell 'c/inst'
+Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/constrs_1/new/pipe_board.xdc]
+Finished Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/constrs_1/new/pipe_board.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 128 instances
+
+open_run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:25 . Memory (MB): peak = 2112.113 ; gain = 655.215
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 511 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/dcp21/top_board.xdc]
+Finished Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/dcp21/top_board.xdc]
+Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/dcp21/top_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz.xdc:57]
+Finished Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/dcp21/top_early.xdc]
+Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/dcp21/top.xdc]
+Finished Parsing XDC File [C:/02study/11github/my_static_pipeline_CPU/.Xil/Vivado-12296-DESKTOP-RLAF3FD/dcp21/top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.599 . Memory (MB): peak = 2188.238 ; gain = 0.996
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.600 . Memory (MB): peak = 2188.238 ; gain = 0.996
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 128 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 128 instances
+
+open_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2204.891 ; gain = 92.777
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Apr  8 13:10:08 2018] Launched impl_1...
+Run output will be captured here: C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744806A
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+current_design rtl_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sun Apr  8 13:20:14 2018] Launched synth_1...
+Run output will be captured here: C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Apr  8 13:22:34 2018] Launched impl_1...
+Run output will be captured here: C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744806A
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Apr  8 13:25:28 2018] Launched impl_1...
+Run output will be captured here: C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744853A
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0_1]
+program_hw_devices [get_hw_devices xc7a100t_0_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0_1] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744853A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744806A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744853A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744853A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744853A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744853A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744853A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292744853A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292744820A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0_2]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0_2]
+set_property PROGRAM.FILE {C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0_2]
+program_hw_devices [get_hw_devices xc7a100t_0_2]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0_2] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  8 13:59:47 2018...

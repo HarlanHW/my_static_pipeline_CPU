@@ -28,12 +28,12 @@ module pipeMWreg(
 	input [31:0] Mr				,
 	input [ 2:0] Mrfsource		,
 	input [ 4:0] Mrn			,
-	input Mw_hi,
-	input Mw_lo,
-	input Mw_rf,
-	input clk,
-	input rst,
-	input wena,
+	input Mw_hi					,
+	input Mw_lo					,
+	input Mw_rf					,
+	input clk					,
+	input rst					,
+	input wena					,
 	output reg [31:0] Walu     	,
 	output reg [31:0] Wa       	,
 	output reg [31:0] Wb 		,
@@ -55,4 +55,53 @@ module pipeMWreg(
 	output reg Ww_lo			,
 	output reg Ww_rf
 	);     
+	always@(posedge rst or posedge clk)
+	begin
+		if(rst==1)
+		begin
+			Walu     	<= 0;
+			Wa       	<= 0;
+			Wb 			<= 0;
+			Wcounter 	<= 0;
+			Wcp0 		<= 0;
+			Wdm 		<= 0;
+			Whi 		<= 0;
+			Whisource	<= 0;
+			Wlo 		<= 0;
+			Wlosource	<= 0;
+			Wmuler_hi	<= 0;
+			Wmuler_lo	<= 0;
+			Wpc4		<= 0;
+			Wq			<= 0;
+			Wr			<= 0;
+			Wrfsource	<= 0;
+			Wrn			<= 0;
+			Ww_hi		<= 0;
+			Ww_lo		<= 0;
+			Ww_rf		<= 0;	
+		end
+		else
+		begin
+			Walu     	<= Malu			;
+			Wa       	<= Ma			;
+			Wb 			<= Mb			;
+			Wcounter 	<= Mcounter		;
+			Wcp0 		<= Mcp0			;
+			Wdm 		<= Mdm			;
+			Whi 		<= Mhi			;
+			Whisource	<= Mhisource	;
+			Wlo 		<= Mlo			;
+			Wlosource	<= Mlosource	;
+			Wmuler_hi	<= Mmuler_hi	;
+			Wmuler_lo	<= Mmuler_lo	;
+			Wpc4		<= Mpc4			;
+			Wq			<= Mq			;
+			Wr			<= Mr			;
+			Wrfsource	<= Mrfsource	;
+			Wrn			<= Mrn			;
+			Ww_hi		<= Mw_hi	    ;
+			Ww_lo		<= Mw_lo		;
+			Ww_rf		<= Mw_rf	    ;
+		end                
+	end
 endmodule

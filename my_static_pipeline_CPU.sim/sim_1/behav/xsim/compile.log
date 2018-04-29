@@ -1,0 +1,68 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/DMEM/sim/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/clk_wiz/clk_wiz_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz
+INFO: [VRFC 10-311] analyzing module clk_wiz_clk_wiz_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/ip/IMEM/sim/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMWreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeMWreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pcreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEMreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeEMreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDEreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeDEreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIF
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeID
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeEXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeEXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeMEMreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeWB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeWB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/dff32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/cla.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeIDcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeIDcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeCPU
+INFO: [VRFC 10-2458] undeclared symbol _pc, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:280]
+INFO: [VRFC 10-2458] undeclared symbol _inst, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:281]
+INFO: [VRFC 10-2458] undeclared symbol _ealu, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:282]
+INFO: [VRFC 10-2458] undeclared symbol _malu, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:283]
+INFO: [VRFC 10-2458] undeclared symbol _walu, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeCPU.v:284]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeDMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeDMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline_CPU_tb
+INFO: [VRFC 10-2458] undeclared symbol reg28, assumed default net type wire [C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/pipeline_CPU_tb.v:51]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/seg7x16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7x16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/02study/11github/my_static_pipeline_CPU/my_static_pipeline_CPU.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
